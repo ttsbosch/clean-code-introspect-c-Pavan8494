@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
 
 boolean tryToConvertStringToInterger(const char* str, int* intergerValue) {
     char* endptr;
