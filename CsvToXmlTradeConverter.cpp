@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
+#include <CsvToXmlTradeConverter.h>
 
 char** SplitString(const char* str, char delimiter) {
     int count = 0;
