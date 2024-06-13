@@ -3,14 +3,6 @@
 #include <string.h>
 #include <errno.h>
 
-typedef struct {
-    char SourceCurrency[256]; // SourceCurrency
-    char DestibationCurrency[256]; // DestibationCurrency
-    float Lots;
-    double Price;
-} tradeRecord;
-
-
 char** SplitString(const char* str, char delimiter) {
     int count = 0;
     const char* ptr = str;
